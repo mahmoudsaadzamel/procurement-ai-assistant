@@ -1,6 +1,6 @@
 # California Procurement Assistant
 
-An AI-powered assistant that analyzes California state procurement data using natural language queries. Built with LangChain, OpenAI GPT-3.5, MongoDB, and Streamlit.
+An AI-powered assistant that analyzes California state procurement data using natural language queries. Built with LangChain, OpenAI GPT-4.5, MongoDB, and Streamlit.
 
 ## Overview
 
