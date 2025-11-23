@@ -92,12 +92,6 @@ The app will open in your browser at `http://localhost:8501`
 - "Which quarter had the highest spending?"
 - "Compare IT Goods vs Non-IT Goods spending"
 
-### Command Line Interface
-
-```bash
-python cli.py
-```
-
 ## Key Components
 
 ### AI Agent (`ai_agent.py`)
@@ -126,13 +120,6 @@ Handles all MongoDB operations:
 - Schema introspection
 - Error handling
 
-## Testing
-
-Run the test suite to verify functionality:
-
-```bash
-python test_assistant.py
-```
 
 ## Performance
 
@@ -141,19 +128,6 @@ python test_assistant.py
 - Optimized MongoDB aggregation pipelines
 - Cached sidebar data to reduce repeated queries
 
-## Design Decisions
-
-### Why MongoDB?
-
-MongoDB's aggregation framework is ideal for complex analytical queries on semi-structured data. It handles grouping, sorting, and calculations efficiently.
-
-### Why LangChain?
-
-LangChain provides a robust framework for building AI agents with tool use, memory management, and error handling built in.
-
-### Why GPT-3.5?
-
-GPT-3.5 Turbo offers the best balance of performance, accuracy, and cost for this use case.
 
 ## Architecture
 
@@ -166,21 +140,6 @@ The application follows a clean, modular architecture:
 
 Each layer is independent and can be tested/modified separately.
 
-## Contributing
-
-The codebase is organized for clarity:
-- Each file has a single responsibility
-- Functions are reusable and well-defined
-- No hardcoded queries - all dynamically generated
-- Comprehensive error handling throughout
-
-## Requirements
-
-- Python 3.9 or higher
-- MongoDB Atlas account (free tier works)
-- OpenAI API key
-- 4GB RAM minimum
-- Internet connection for API calls
 
 ## Troubleshooting
 
@@ -199,10 +158,3 @@ The codebase is organized for clarity:
 - Check your OpenAI account has credits
 - Ensure OPENAI_API_KEY is set in `.env`
 
-## License
-
-This project was developed as part of an AI Engineering assessment.
-
-## Contact
-
-For questions or issues, please refer to the documentation in `DATA_SETUP.md`.
